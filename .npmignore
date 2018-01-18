@@ -1,0 +1,12 @@
+.git
+.idea
+.vscode
+.DS_Store
+Desktop.ini
+thumbs.db
+.env
+node_modules
+npm-debug.log
+npm-error.log
+yarn-debug.log
+yarn-error.log

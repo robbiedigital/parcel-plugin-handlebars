@@ -1,0 +1,42 @@
+{
+  "name": "parcel-plugin-handlebars",
+  "version": "0.1.0",
+  "description": "Parcel plugin to compile handlebars layouts templates.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBlackBolt/parcel-plugin-handlebars.git"
+  },
+  "keywords": [
+    "parcel",
+    "plugin",
+    "handlebars",
+    "hbs",
+    "layouts",
+    "asset",
+    "build"
+  ],
+  "author": "Robbie Hernandez <jayrotek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBlackBolt/parcel-plugin-handlebars/issues"
+  },
+  "homepage": "https://github.com/TheBlackBolt/parcel-plugin-handlebars#readme",
+  "peerDependencies": {
+    "handlebars": "^4.0.11",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-layouts": "^3.1.4",
+    "handlebars-wax": "^6.1.0",
+    "parcel-bundler": "^1.4.1",
+    "posthtml-render": "^1.0.6"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-layouts": "^3.1.4",
+    "handlebars-wax": "^6.1.0",
+    "parcel-bundler": "^1.4.1",
+    "posthtml-render": "^1.0.6"
+  }
+}
