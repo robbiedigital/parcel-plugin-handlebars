@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-handlebars",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Parcel plugin to compile handlebars layouts templates.",
   "main": "index.js",
   "scripts": {
