@@ -1,4 +1,6 @@
 {
+  "name": "advanced-example",
+  "version": "1.0.0-beta.1",
   "scripts": {
     "build": "parcel build markup/index.hbs --no-cache --public-url ./",
     "start": "parcel markup/index.hbs",
