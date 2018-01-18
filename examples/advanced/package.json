@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "parcel build markup/index.hbs --no-cache --public-url ./",
+    "start": "parcel markup/index.hbs",
+    "serve": "serve -s dist"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1",
+    "parcel-plugin-handlebars": "^0.1.0",
+    "serve": "^6.4.8",
+    "typescript": "^2.6.2"
+  }
+}

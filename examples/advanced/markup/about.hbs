@@ -1,0 +1,29 @@
+---
+alternates:
+  - language: es
+    uri: /es
+  - language: fr
+    uri: /fr
+bodyclass: about
+language: en
+meta:
+  author: Author Name
+  description: Some meta description
+  keywords: Some, Meta, Keywords
+  robots: index, follow
+scripts:
+  - ../typescript/about.ts
+stylesheets:
+  - ../scss/about.scss
+title: About | Parcel Bundler With Handlebars
+uri: /about
+---
+
+{{#extend "base"}}
+  {{#content "main"}}
+    <main>
+      <h1>Welcome from about.hbs</h1>
+      No States for you
+    </main>
+  {{/content}}
+{{/extend}}

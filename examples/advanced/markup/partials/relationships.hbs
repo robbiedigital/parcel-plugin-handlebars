@@ -1,0 +1,14 @@
+{{!-- Recommended favicon format is png --}}
+<link rel="shortcut icon" href="../images/parcel.png" type="image/png">
+{{#and site.protocol site.domain}}
+{{#if uri}}
+{{!-- Helps prevent duplicate content issues --}}
+<link rel="canonical" href="{{site.protocol}}://{{site.domain}}{{uri}}">
+{{/if}}
+{{#each alternates}}
+{{#and uri language}}
+{{!-- Helps prevent duplicate content issues for alternate languages --}}
+<link rel="alternate" href="{{@root.site.protocol}}://{{@root.site.domain}}{{uri}}" hreflang="{{language}}">
+{{/and}}
+{{/each}}
+{{/and}}
