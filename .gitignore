@@ -1,5 +1,7 @@
 .idea
 .vscode
+.cache
+dist
 .DS_Store
 Desktop.ini
 thumbs.db
