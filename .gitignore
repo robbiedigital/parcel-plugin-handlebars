@@ -11,3 +11,5 @@ npm-debug.log
 npm-error.log
 yarn-debug.log
 yarn-error.log
+examples/simple/package-lock.json
+examples/advanced/package-lock.json
