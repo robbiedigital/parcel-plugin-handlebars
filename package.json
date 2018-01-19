@@ -4,7 +4,7 @@
   "description": "Parcel plugin to compile handlebars layouts templates.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint -c .eslintrc.js '**/*.js'"
+    "lint": "eslint -c .eslintrc.js 'lib/**/*.js' 'index.js'"
   },
   "repository": {
     "type": "git",
