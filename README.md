@@ -101,6 +101,10 @@ names:
 </html>
 ```
 
+### Handlebars Layouts
+The plugin has built in support for [handlebars-layouts](https://www.npmjs.com/package/handlebars-layouts). The [advanced example](https://github.com/TheBlackBolt/parcel-plugin-handlebars/tree/master/examples/advanced) shows how to take advantage of handlebars layouts.
+Please refer to their documentation for more information.
+
 ### Handlebars Helpers
 The plugin is also including all helpers found in the npm package [handlebars-helpers](https://www.npmjs.com/package/handlebars-helpers).
 Please refer to their documentation for example usages.
