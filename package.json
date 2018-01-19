@@ -31,8 +31,7 @@
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
     "handlebars-wax": "^6.1.0",
-    "parcel-bundler": "^1.4.1",
-    "posthtml-render": "^1.0.6"
+    "parcel-bundler": "^1.4.1"
   },
   "dependencies": {
     "front-matter": "^2.3.0",
@@ -40,8 +39,7 @@
     "handlebars-helpers": "^0.10.0",
     "handlebars-layouts": "^3.1.4",
     "handlebars-wax": "^6.1.0",
-    "parcel-bundler": "^1.4.1",
-    "posthtml-render": "^1.0.6"
+    "parcel-bundler": "^1.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
