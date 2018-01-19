@@ -2,8 +2,6 @@
 
 # parcel-plugin-handlebars [![npm](https://img.shields.io/npm/v/parcel-plugin-handlebars.svg)](https://www.npmjs.com/package/parcel-plugin-handlebars)
 
-<img src="https://img.souche.com/f2e/b1f71b545619350ff92458bbcfa01056.png" align="right" width="140">
-
 [【What is Parcel】](https://parceljs.org/)[【What is Handlebars】](http://handlebarsjs.com/)
 
 - [Install](#install)
@@ -68,7 +66,7 @@ module.exports = {
 The plugin has built in support for frontmatter yaml. Processed yaml data will be passed into the templates before compilation. frontmatter yaml data will preferably be at the top of the template file such as the following example:
 
 #### Source - `example.hbs`
-```hbs
+```html
 ---
 title: This is a heading
 desc: this is a paragraph
